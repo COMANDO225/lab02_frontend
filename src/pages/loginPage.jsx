@@ -32,7 +32,7 @@ const LoginPage = () => {
             return;
         }
         try {
-            const res = await axios.post('http://localhost:8000/user/login', user);
+            const res = await axios.post('https://lab02-express-jwt-rest.herokuapp.com/user/login', user);
             console.log(res);
             localStorage.setItem('token', res.data.token);
             navigate('/');

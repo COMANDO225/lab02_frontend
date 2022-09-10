@@ -33,7 +33,7 @@ const RegisterPage = () => {
             return;
         }
         try {
-            const res = await axios.post('http://localhost:8000/user/', user);
+            const res = await axios.post('https://lab02-express-jwt-rest.herokuapp.com/user/', user);
             console.log(res);
             navigate('/login');
         } catch (error) {

@@ -19,7 +19,7 @@ import { useNavigate } from 'react-router-dom';
 // import { useAtom } from 'jotai';
 // import { userTokenAtom } from '../atoms/userTokenAtom';
 
-const URI = 'http://localhost:8000/agenda';
+const URI = 'https://lab02-express-jwt-rest.herokuapp.com/agenda';
 
 const HomePage = () => {
 
